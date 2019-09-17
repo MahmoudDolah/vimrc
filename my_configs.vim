@@ -22,7 +22,10 @@ map gd :bd<cr>
 let g:NERDTreeWinPos = "left"
 let g:gitgutter_enabled=1
 let g:airline#extensions#tabline#enabled = 1
-"
+
+" Launch FZF on ',+f'
+noremap <Leader>f :FZF<CR>
+
 " Notational Velocity Vim FZF Plugin
 noremap <Leader>l :NV<CR>
 let g:nv_search_paths = ['/Users/mdolah/Documents/notes', '/Users/mdolah/Documents/logbook']
